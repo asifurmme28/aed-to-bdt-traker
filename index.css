@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+body { font-family: 'Figtree', system-ui, sans-serif; }
+.display { font-family: 'Bricolage Grotesque', 'Figtree', sans-serif; font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
